@@ -1,3 +1,4 @@
+/*
 class ClassicDao {
 
 public Ship getShip(String shipId) {
@@ -12,3 +13,4 @@ public Ship getShip(String shipId) {
     }
     
 }    
+*/
