@@ -12,7 +12,7 @@ public class Scala {
         System.out.println(Option.apply(null).getClass());
         System.out.println(Option.apply("value").getClass());
 
-        Option<String> o = Option.apply(null);
+        var o = Option.apply(null);
         if(o.isEmpty()) {
             System.out.println(o.get());
         }

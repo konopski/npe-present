@@ -1,3 +1,5 @@
+package npe1;
+
 import java.sql.*;
 
 public class CloseMe {
@@ -18,10 +20,6 @@ public class CloseMe {
         }
         if (pstmtDirectDeliveryTest != null) {
             pstmtDirectDeliveryTest.close();
-        }
-        // resultset for order loop
-        if (rsOrdersForProcessing != null) {
-            rsOrdersForProcessing.close();
         }
         if (pstmtSelectOrdersForProcessing != null) {
             pstmtSelectOrdersForProcessing.close();
