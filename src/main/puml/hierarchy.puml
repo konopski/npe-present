@@ -1,0 +1,17 @@
+@startuml
+
+class Throwable
+class Exception
+class Error
+class RuntimeException
+class NullPointerException
+
+Throwable <|-- Exception
+Throwable <|-- Error
+Exception  <|-- RuntimeException
+
+RuntimeException  <|-- NullPointerException
+
+hide members
+hide methods
+@enduml
